@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    padding: 10px;
+    margin: 0px;
+    background: rgb(0, 0, 0);
+}
+.header a{
+    text-decoration: none;
+    color: #ddaa44;
+    font-family: Tahoma;
+    padding: 10px;
+}
+.header h2{
+    color: #ddaa44;
+    font-family: 'Rubik Puddles', cursive;
+    font-size: 50px;
+}
+
+.menu{
+    text-decoration: none;
+    font-size: 10px;
+    text-align: right;
+    font-size: medium;
+}
+
+.Profil{
+    border : 1px solid black;
+    padding : 10px;
+    float : center;
+    background-color: #ddaa44;
+}
+.footer{
+    padding: 10px;
+    margin: 0px;
+    background: rgb(0, 0, 0);
+    color: #ddaa44;
+    text-align: left;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.Profil table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.Profil th, td{
+    text-align: left;
+    padding: 16px;
+}
+.Profil tr:nth-child(even) {
+    background-color: #f2f2f2;
+}

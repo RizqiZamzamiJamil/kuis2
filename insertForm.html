@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tambah Data-RZ Book Store</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik+Puddles&display=swap" rel="stylesheet">
+        <Link rel="stylesheet" type="text/css" href="style3.css">
+    </head>
+    
+<body>
+    <div class="header">
+        <h2>RZ Book Store</h2>
+        <div class="menu">
+            <a href="halamanAdmin.php"><b>Home</b></a>
+            <a href="prosesLogout.php"><b>Logout</b></a>
+        </div>
+    </div>
+
+    <div class="Profil">
+        <br><br>
+        <h1 align="center">Halaman Tambah Data</h1>
+        <br><br><br>
+        <form action="insertProcess.php" method="post" enctype="multipart/form-data">
+            <table>
+                <tr>
+                    <td> Id Buku : </td>
+                    <td> <input type="text" name="id"> </td>
+                </tr>
+                <tr>
+                    <td> Judul : </td>
+                    <td> <input type="text" name="judul"> </td>
+                </tr>
+                <tr>
+                    <td> Pengarang : </td>
+                    <td> <input type="text" name="pengarang"> </td>
+                </tr>
+                <tr>
+                    <td> Penerbit : </td>
+                    <td> <input type="text" name="penerbit"> </td>
+                </tr>
+                <tr>
+                    <td> Deskripsi : </td>
+                    <td> <textarea name="deskrip" rows="5" cols="20"></textarea> </td>
+                </tr>
+            </table>
+            <input type="submit" name="send" value="Tambah">
+        </form>
+    </div>
+
+
+    <div class="footer">
+        <h4 style="text-align: center;">Copyright &copy; 2022 Oleh Rizqi Zamzami Jamil</h4>
+        <h4>Jl. Merdeka No 26. Kediri City</h4>
+        <h4>082147083442</h4>
+    <br>
+    </div>
+</body>
+</html>
